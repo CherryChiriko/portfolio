@@ -2,7 +2,7 @@ import React from 'react'
 
 import ContactInfo from '../components/ConctactInfo'
 
-import { contactsData } from '../assets/contactData'
+import { contactsData } from '../assets/data/contactData'
 import Form from '../components/Form'
 
 export default function Contacts (){

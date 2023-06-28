@@ -1,38 +1,16 @@
 import React from 'react'
 import photo from '../assets/images/foto.png';
-// import { Link } from 'react-router-dom';
+import cv from '../assets/SofiaDiGennaro_CV.png';
+import { useNavigate } from 'react-router-dom';
 
-export default function Home (){
-//     const fileURL = '';
-//     fetch('https://cors-anywhere.herokuapp.com/' + fileURL, {
-//     method: 'GET',
-//     headers: {
-//       'Content-Type': 'application/pdf',
-//     },
-//   })
-//   .then((response) => response.blob())
-//   .then((blob) => {
-//     // Create blob link to download
-//     const url = window.URL.createObjectURL(
-//       new Blob([blob]),
-//     );
-//     const link = document.createElement('a');
-//     link.href = url;
-//     link.setAttribute(
-//       'download',
-//       `FileName.pdf`,
-//     );
-
-//     // Append to html link element page
-//     document.body.appendChild(link);
-
-//     // Start download
-//     link.click();
-
-//     // Clean up and remove the link
-//     if (link.parentNode) link.parentNode.removeChild(link);
-//     });
-
+export default function Home() {
+    function handleDownload() {
+        const link = document.createElement('a');
+        link.href = cv;
+        link.download = 'SofiaDiGennaro_CV.png';
+        link.click();
+    }
+    const navigate = useNavigate();
     return(
         <div className="flex-standard home-div">
             <img src={photo} alt="Me" 
@@ -44,9 +22,10 @@ export default function Home (){
                 Highly motivated and dedicated professional with a strong background in theoretical physics, transitioning into programming with a focus on frontend development. Equipped with a solid foundation in scientific principles and analytical thinking, I am driven by a passion for problem-solving and creating innovative software solutions. Additionally, I possess a keen interest in foreign languages and thrive in international environments.
                 </p>
                 <div className="row flex-standard">
-                    <button className="btn bg-dark blue-button mx-4">Curriculum</button>
                     <button className="btn bg-dark blue-button mx-4"
-                    onClick={() => window.location.href = '/contacts'}>Contact</button>
+                    onClick={handleDownload}>Curriculum</button>
+                    <button className="btn bg-dark blue-button mx-4"
+                    onClick={() => navigate('/contacts')}>Contact</button>
                 </div>
             </div> 
         </div>

@@ -1,9 +1,8 @@
-
-import calcImg from '../assets/images/react_projects/Calculator.png'
-import drumImg from '../assets/images/react_projects/drum-machine.png'
-import tenzImg from '../assets/images/react_projects/tenzies.png'
-import timerImg from '../assets/images/react_projects/timer.png'
-import travelImg from '../assets/images/react_projects/travel-journal.png'
+import calcImg from '../images/react_projects/Calculator.png'
+import drumImg from '../images/react_projects/drum-machine.png'
+import tenzImg from '../images/react_projects/tenzies.png'
+import timerImg from '../images/react_projects/timer.png'
+import travelImg from '../images/react_projects/travel-journal.png'
 
 export const projectsData = [
     {

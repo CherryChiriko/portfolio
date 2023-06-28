@@ -1,5 +1,5 @@
 import React from 'react'
-import { projectsData } from '../../assets/projectsData'
+import { projectsData } from '../../assets/data/projectsData'
 import ProjectCard from '../../components/ProjectCard'
 
 export default function ProjectInfo (){

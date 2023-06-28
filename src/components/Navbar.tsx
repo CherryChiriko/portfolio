@@ -9,7 +9,7 @@ export default function Navbar (){
             <NavLink to="/skills"
             className={({isActive}) => isActive ? "active-link" : "link"}>
                 Skills </NavLink>
-            <NavLink to="/portfolio"
+            <NavLink to="/projects"
             className={({isActive}) => isActive ? "active-link" : "link"}> 
                 Portfolio </NavLink>
             <NavLink to="/contacts"

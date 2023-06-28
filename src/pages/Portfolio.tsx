@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
-import { projectsData } from '../assets/projectsData'
+import { projectsData } from '../assets/data/projectsData'
 
 export default function Portfolio (){
     const projects = projectsData.map(project => {

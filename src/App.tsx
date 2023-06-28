@@ -13,16 +13,17 @@ import PortfolioLayout from './pages/layouts/PortfolioLayout';
 export default function App()  {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='/portfolio'>
+    {/* <BrowserRouter basename='/CherryChiriko/portfolio'> */}
       <Routes>
         <Route element={<Layout />} >
           <Route index element={<Home />} />
           <Route path="skills" element={<Skills />} />
 
-          <Route path="portfolio" element={<PortfolioLayout />} >
+          <Route path="projects" element={<PortfolioLayout />} >
             <Route index element={<Portfolio />}/>
-            <Route path=":id" element={<ProjectInfo />} />
-            <Route path="list" element={<ProjectList />} />
+            <Route path="projects/:id" element={<ProjectInfo />} />
+            <Route path="projects/list" element={<ProjectList />} />
           </Route>
           
           <Route path="contacts" element={<Contacts />} />

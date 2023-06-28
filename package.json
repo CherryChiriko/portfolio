@@ -1,7 +1,7 @@
 {
-  "name": "pers-port",
+  "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/CherryChiriko/portfolio/",
+  "homepage": "https://cherrychiriko.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",

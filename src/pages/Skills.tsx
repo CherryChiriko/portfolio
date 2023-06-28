@@ -1,8 +1,8 @@
 import React from 'react'
 import './Skills.css'
 import Skill from '../components/Skill'
-import { skillsData } from '../assets/skillsData'
-import { interestsData } from '../assets/interestsData';
+import { skillsData } from '../assets/data/skillsData'
+import { interestsData } from '../assets/data/interestsData';
 import Interests from '../components/Interests';
 
 export default function Skills (){
