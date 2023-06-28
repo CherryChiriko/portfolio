@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CherryChiriko/portfolio/static/css/main.bbd85388.css",
-    "main.js": "/CherryChiriko/portfolio/static/js/main.04b8ea48.js",
+    "main.js": "/CherryChiriko/portfolio/static/js/main.19909c58.js",
     "static/js/787.d6a69cd1.chunk.js": "/CherryChiriko/portfolio/static/js/787.d6a69cd1.chunk.js",
     "static/media/foto.png": "/CherryChiriko/portfolio/static/media/foto.774f02369a4e16ea97df.png",
     "static/media/travel-journal.png": "/CherryChiriko/portfolio/static/media/travel-journal.5d8dbbd33aaa0038b8fe.png",
@@ -10,11 +10,11 @@
     "static/media/drum-machine.png": "/CherryChiriko/portfolio/static/media/drum-machine.6f8ef44e0d0589aecff1.png",
     "index.html": "/CherryChiriko/portfolio/index.html",
     "main.bbd85388.css.map": "/CherryChiriko/portfolio/static/css/main.bbd85388.css.map",
-    "main.04b8ea48.js.map": "/CherryChiriko/portfolio/static/js/main.04b8ea48.js.map",
+    "main.19909c58.js.map": "/CherryChiriko/portfolio/static/js/main.19909c58.js.map",
     "787.d6a69cd1.chunk.js.map": "/CherryChiriko/portfolio/static/js/787.d6a69cd1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bbd85388.css",
-    "static/js/main.04b8ea48.js"
+    "static/js/main.19909c58.js"
   ]
 }
