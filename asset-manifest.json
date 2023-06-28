@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/CherryChiriko/portfolio/static/css/main.bbd85388.css",
-    "main.js": "/CherryChiriko/portfolio/static/js/main.f4a15195.js",
-    "static/js/787.1ed0c42c.chunk.js": "/CherryChiriko/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/foto.png": "/CherryChiriko/portfolio/static/media/foto.774f02369a4e16ea97df.png",
-    "static/media/travel-journal.png": "/CherryChiriko/portfolio/static/media/travel-journal.5d8dbbd33aaa0038b8fe.png",
-    "static/media/tenzies.png": "/CherryChiriko/portfolio/static/media/tenzies.2b77675ddc73f692dc9e.png",
-    "static/media/timer.png": "/CherryChiriko/portfolio/static/media/timer.9164b61a0f3dfb729a87.png",
-    "static/media/drum-machine.png": "/CherryChiriko/portfolio/static/media/drum-machine.6f8ef44e0d0589aecff1.png",
-    "index.html": "/CherryChiriko/portfolio/index.html",
-    "main.bbd85388.css.map": "/CherryChiriko/portfolio/static/css/main.bbd85388.css.map",
-    "main.f4a15195.js.map": "/CherryChiriko/portfolio/static/js/main.f4a15195.js.map",
-    "787.1ed0c42c.chunk.js.map": "/CherryChiriko/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.bbd85388.css",
+    "main.js": "/portfolio/static/js/main.e6fef11e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/foto.png": "/portfolio/static/media/foto.774f02369a4e16ea97df.png",
+    "static/media/travel-journal.png": "/portfolio/static/media/travel-journal.5d8dbbd33aaa0038b8fe.png",
+    "static/media/tenzies.png": "/portfolio/static/media/tenzies.2b77675ddc73f692dc9e.png",
+    "static/media/timer.png": "/portfolio/static/media/timer.9164b61a0f3dfb729a87.png",
+    "static/media/drum-machine.png": "/portfolio/static/media/drum-machine.6f8ef44e0d0589aecff1.png",
+    "index.html": "/portfolio/index.html",
+    "main.bbd85388.css.map": "/portfolio/static/css/main.bbd85388.css.map",
+    "main.e6fef11e.js.map": "/portfolio/static/js/main.e6fef11e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bbd85388.css",
-    "static/js/main.f4a15195.js"
+    "static/js/main.e6fef11e.js"
   ]
 }
