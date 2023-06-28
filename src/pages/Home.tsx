@@ -1,7 +1,9 @@
 import React from 'react'
 import photo from '../assets/images/foto.png';
-import cv from '../assets/SofiaDiGennaro_CV.png';
+import cv from '../assets/certificates/SofiaDiGennaro_CV.png';
 import { useNavigate } from 'react-router-dom';
+import {faDownload} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Home() {
     function handleDownload() {
@@ -23,7 +25,11 @@ export default function Home() {
                 </p>
                 <div className="row flex-standard">
                     <button className="btn bg-dark blue-button mx-4"
-                    onClick={handleDownload}>Curriculum</button>
+                    onClick={handleDownload}>
+                        <span>Curriculum
+                            <FontAwesomeIcon icon={faDownload} className='mx-2'/>
+                        </span>
+                    </button>
                     <button className="btn bg-dark blue-button mx-4"
                     onClick={() => navigate('/contacts')}>Contact</button>
                 </div>

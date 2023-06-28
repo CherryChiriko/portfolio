@@ -30,7 +30,7 @@ nav {
   background-color: var(--darker-black);
 }
 .soft-text{  color: rgba(255,255,255,0.5); }
-.bold-text{   font-weight: bold; }
+.text-bold{   font-weight: bold; }
 .blue-button{
   background-color: var(--black) !important;
   border-color: var(--grey) !important;
