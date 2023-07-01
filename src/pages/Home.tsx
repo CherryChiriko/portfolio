@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../assets/images/foto.png';
+import photo from '../assets/images/photo_cv.png';
 import cv from '../assets/certificates/SofiaDiGennaro_CV.png';
 import { useNavigate } from 'react-router-dom';
 import {faDownload} from '@fortawesome/free-solid-svg-icons'

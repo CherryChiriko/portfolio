@@ -1,5 +1,5 @@
 import React from 'react'
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
 export default function Form (){
     const [formData, setFormData] = React.useState(
@@ -17,7 +17,7 @@ export default function Form (){
 
     function handleSubmit(event : any){
         event.preventDefault();
-        // emailjs.sendForm('0a2a409226', 'YOUR_TEMPLATE_ID', form.current, '12921e5f6211295e6bacfe6580e95e5e-us21')
+        // emailjs.sendForm()
         // .then((result) => {
         //  // show the user a success message
         // }, (error) => {

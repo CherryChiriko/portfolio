@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function ProjectCard (props : any){
     const maxTextLength : number = 150;
@@ -7,14 +8,16 @@ export default function ProjectCard (props : any){
             props.info :
             props.info.slice(0, maxTextLength) + '...'
     return(
-        <div className='project-card rounded p-3 m-3' 
-        onClick={() => window.location.href = `/${props.id}`}>
-            <p className="text-bold">{props.title}</p>
-            <img src={props.image} alt="project" 
-            className='project-photo rounded'/>
-            <div className="card-body flex-standard">
-                <p className="soft-text">{infoText}</p>
+        <Link to={`projects/${props.id}`} >
+            <div className='project-card rounded p-3 m-3'>
+                <p className="text-bold">{props.title}</p>
+                <img src={props.image} alt="project" 
+                className='project-photo photo-standard rounded'/>
+                <div className="card-body flex-standard">
+                    <p className="soft-text">{infoText}</p>
+                </div>
             </div>
-        </div>
+        </Link>
+        
     )
 }

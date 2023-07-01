@@ -6,6 +6,8 @@
 }
 .interests-icon{
     font-size: 1.5rem;
-    color: var(--blue)
+    color: var(--blue);
 }
-/* .li-button{    width: 10% !important } */
+.skill-title{
+    margin-top: 2rem !important;
+}

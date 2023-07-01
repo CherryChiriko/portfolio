@@ -26,6 +26,12 @@ export default function Contacts (){
                         <Form />
                     </div> 
                 </div>
+                <div className='mt-3'>
+                    <p className='soft-text'>This contact form serves as a demonstration and does not have the capability to send messages since it is not possible to share my API key publicly.
+                    <br />
+                    If you wish to get in touch with me, kindly send a regular email.</p>
+                </div>
+                
             </div>
         </div>
     )

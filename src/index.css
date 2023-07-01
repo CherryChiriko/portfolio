@@ -1,7 +1,9 @@
 :root{
   --grey: #D5D5D5;
+  --lighter-black: #525252;
   --black: #333333;
-  --darker-black: #222222;
+  --darker-black: #222222 ;
+  --dark-black: #121212;
   --blue: #007CED;
 }
 body {
@@ -100,7 +102,6 @@ nav{
 .textarea-input{  height: 100%;}
 
 .div-contacts{
-  height: 100%;
   display: flex;
   padding: 1rem;
 }
@@ -108,11 +109,7 @@ nav{
 
 
 .project-photo {
-  max-width: 15rem;
-  height: 15rem; 
-  object-fit: contain; 
-  background-color: white; /* Fill the extra space with white */
-  border: 2px solid var(--darker-black);
+  width: 15rem;  height: 15rem; 
 }
 
 .project-card{
@@ -126,4 +123,32 @@ nav{
 .card-body{
   flex-direction: column;
   text-align: center;
+}
+
+.projects-div{
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+}
+.scroll-icon{
+  margin-top: 1rem;
+  margin-left: .5rem;
+  height: 35rem;
+  background-color: var(--lighter-black);
+  display: flex; justify-content: center; align-items: center;
+  padding: 1rem;
+}
+
+.projects-div > a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.project-img{
+  width: 90%; height: 90%;
+  margin-bottom: 1rem;
+}
+
+.photo-standard{
+  object-fit: contain; 
+  background-color: white; /* Fill the extra space with white */
+  border: 2px solid var(--darker-black);
 }

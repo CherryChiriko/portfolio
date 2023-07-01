@@ -35,7 +35,7 @@ export default function Skills (){
                         <h4>Front-end skills</h4>
                         <div className='blue-line'></div>
                         {frontEndSkills}
-                        <h4>Back-end skills</h4>
+                        <h4 className='skill-title'>Back-end skills</h4>
                         <div className='blue-line'></div>
                         {backEndSkills}
                     </div>
@@ -43,14 +43,14 @@ export default function Skills (){
                         <h4>Language skills</h4>
                         <div className='blue-line'></div>
                         {languageSkills}
-                        <h4>Interests</h4>
+                        <h4 className='skill-title'>Interests</h4>
                         <div className='blue-line'></div>
                         <div className='d-flex flex-row interests-div'>
                             {interests}
                         </div>
                     </div>
                 </div>
-                <div className='row'>
+                <div className='row skill-title'>
                     <h4 className='text-bold'>Certificates</h4>
                     <div className='blue-line'></div>
                     <ul>
