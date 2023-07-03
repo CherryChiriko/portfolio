@@ -1,20 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bbd85388.css",
-    "main.js": "/portfolio/static/js/main.6fb07691.js",
+    "main.css": "/portfolio/static/css/main.c524e217.css",
+    "main.js": "/portfolio/static/js/main.4c6e02b6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/foto.png": "/portfolio/static/media/foto.774f02369a4e16ea97df.png",
+    "static/media/photo_cv.png": "/portfolio/static/media/photo_cv.ee2067b11fd9aed4461b.png",
+    "static/media/mapp.png": "/portfolio/static/media/mapp.c907711bb640010f0c98.png",
+    "static/media/mapp_intro.png": "/portfolio/static/media/mapp_intro.6410f5b886e7d883d759.png",
+    "static/media/SofiaDiGennaro_CV.png": "/portfolio/static/media/SofiaDiGennaro_CV.f1b4533ec6662ad2b5d2.png",
+    "static/media/angular.png": "/portfolio/static/media/angular.94d28874304a37f4d35a.png",
+    "static/media/weather.png": "/portfolio/static/media/weather.e84705f800a0001ecfec.png",
     "static/media/travel-journal.png": "/portfolio/static/media/travel-journal.5d8dbbd33aaa0038b8fe.png",
+    "static/media/pawbook_intro.png": "/portfolio/static/media/pawbook_intro.842d1561e2f131af7b01.png",
+    "static/media/mapp_client.png": "/portfolio/static/media/mapp_client.0ad20052eb9740c9f1a7.png",
     "static/media/tenzies.png": "/portfolio/static/media/tenzies.2b77675ddc73f692dc9e.png",
+    "static/media/responsive_web_design.png": "/portfolio/static/media/responsive_web_design.db860f01960ddfd0ac8c.png",
+    "static/media/frontend_development_libraries.png": "/portfolio/static/media/frontend_development_libraries.8a4b65c5670c8a441853.png",
+    "static/media/mapp_activeclient.png": "/portfolio/static/media/mapp_activeclient.d290e0fef22db52119ed.png",
+    "static/media/mapp_consultant.png": "/portfolio/static/media/mapp_consultant.7c3ec762ead4a98c9f0d.png",
     "static/media/timer.png": "/portfolio/static/media/timer.9164b61a0f3dfb729a87.png",
+    "static/media/KimWen.png": "/portfolio/static/media/KimWen.3987307543a283290104.png",
+    "static/media/mapp_filter.png": "/portfolio/static/media/mapp_filter.85a8a36bc8cf5378cab3.png",
+    "static/media/battleship.png": "/portfolio/static/media/battleship.bf6faf4e7385b6803d78.png",
     "static/media/drum-machine.png": "/portfolio/static/media/drum-machine.6f8ef44e0d0589aecff1.png",
     "index.html": "/portfolio/index.html",
-    "main.bbd85388.css.map": "/portfolio/static/css/main.bbd85388.css.map",
-    "main.6fb07691.js.map": "/portfolio/static/js/main.6fb07691.js.map",
+    "main.c524e217.css.map": "/portfolio/static/css/main.c524e217.css.map",
+    "main.4c6e02b6.js.map": "/portfolio/static/js/main.4c6e02b6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbd85388.css",
-    "static/js/main.6fb07691.js"
+    "static/css/main.c524e217.css",
+    "static/js/main.4c6e02b6.js"
   ]
 }
