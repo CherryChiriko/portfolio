@@ -8,6 +8,7 @@ import Portfolio from './pages/Portfolio';
 import ProjectInfo from './pages/subpages/ProjectInfo';
 import ProjectList from './pages/subpages/ProjectList';
 import PortfolioLayout from './pages/layouts/PortfolioLayout';
+import ProjectDescription from './pages/subpages/ProjectDescription';
 
 
 export default function App()  {
@@ -22,8 +23,9 @@ export default function App()  {
 
           <Route path="projects" element={<PortfolioLayout />} >
             <Route index element={<Portfolio />}/>
-            <Route path="projects/:id" element={<ProjectInfo />} />
-            <Route path="projects/list" element={<ProjectList />} />
+            <Route path=":id" element={<ProjectInfo />} />
+            <Route path="list" element={<ProjectList />} />            
+            <Route path=":id/description" element={<ProjectDescription />} />
           </Route>
           
           <Route path="contacts" element={<Contacts />} />

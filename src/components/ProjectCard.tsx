@@ -8,7 +8,7 @@ export default function ProjectCard (props : any){
             props.info :
             props.info.slice(0, maxTextLength) + '...'
     return(
-        <Link to={`projects/${props.id}`} >
+        <Link to={`${props.id}`} >
             <div className='project-card rounded p-3 m-3'>
                 <p className="text-bold">{props.title}</p>
                 <img src={props.image} alt="project" 

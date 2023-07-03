@@ -152,3 +152,23 @@ nav{
   background-color: white; /* Fill the extra space with white */
   border: 2px solid var(--darker-black);
 }
+
+.btn-info{
+  width: 100% !important;
+}
+.btn-div{
+  width: 100%; 
+  display: flex;
+  justify-content: space-evenly; align-items: center;
+}
+
+
+.image-description{
+  width: 60% !important;
+}
+.small-image{
+  width: 80% !important;
+}
+.large-image{
+  width: 40% !important;
+}

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom';
 import { projectsData } from '../../assets/data/projectsData';
-// import { projectsData } from '.../assets/projectsData'
 
 export default function ProjectInfo (){
     const { id } = useParams();                                         // Get the id from the route params
@@ -21,11 +20,30 @@ export default function ProjectInfo (){
                     <img src={project.image} alt='project'
                     className='project-img photo-standard rounded'/>
                 </div>
-                <div className='col'>
-                    <p>{project.info}</p>
+                <div className='col flex-standard flex-column'>
+                <p>{project.info}</p>
+                <div className="flex-standard btn-div">
                     <Link to={project.link}>
-                    <button className='btn blue-button'>Go to page</button>
+                    <button className="btn bg-dark blue-button btn-info">
+                        Github repo
+                    </button>
                     </Link>
+                    {project.description && (
+                    <Link to={`description`}>
+                        <button className="btn bg-dark blue-button btn-info">Description</button>
+                    </Link>)}
+                </div>
+                {/* <div className="flex-standard">
+                    <Link to={project.link}>
+                    <button className='btn blue-button bg-dark'>Go to page</button>
+                    </Link>
+                    {project.description && (
+                        <Link to="/description">
+                        <button className="btn blue-button bg-dark">Go to description</button>
+                        </Link>
+                    )}
+                </div> */}
+                    
                 </div>
             </div>
             
