@@ -1,7 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { IInterest } from '../interfaces/IInterest'
 
-export default function Interests (props : any){
+export default function Interests (props : IInterest) : JSX.Element{
     return(
         <div className='flex-standard flex-column'>       
             <div className="mb-3">

@@ -1,7 +1,7 @@
 import React from "react"
 import { Outlet } from "react-router-dom"
 
-export default function PortfolioLayout() {
+export default function PortfolioLayout() : JSX.Element {
     return (
         <div className='flex-standard'>
             <div className='section-header'>

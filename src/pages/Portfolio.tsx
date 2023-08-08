@@ -1,19 +1,20 @@
 import React, { useRef } from 'react'
 import ProjectCard from '../components/ProjectCard'
 import { projectsData } from '../assets/data/projectsData'
+import { IProject } from '../interfaces/IProject';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
-export default function Portfolio (){
+export default function Portfolio () : JSX.Element{
     
     function makeProject(type: string) : JSX.Element[] {
         return projectsData
-        .filter(project => project.type === type)
-        .map(project => <ProjectCard key={project.id} {...project} />);
+        .filter((project : IProject) => project.type === type)
+        .map((project : IProject) => <ProjectCard key={project.id} {...project} />);
     }
-    const reactProjects = makeProject('React');
-    const angularProjects = makeProject('Angular');
-    const pythonProjects = makeProject('Python');
+    const reactProjects   : JSX.Element[] = makeProject('React');
+    const angularProjects : JSX.Element[] = makeProject('Angular');
+    const pythonProjects  : JSX.Element[] = makeProject('Python');
 
     const ref = useRef<HTMLDivElement>(null);
     // const scroll = (scrollOffset: number) => {

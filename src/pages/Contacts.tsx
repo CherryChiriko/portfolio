@@ -4,9 +4,11 @@ import ContactInfo from '../components/ConctactInfo'
 
 import { contactsData } from '../assets/data/contactData'
 import Form from '../components/Form'
+import { IContact } from '../interfaces/IContact'
 
-export default function Contacts (){
-    const contacts = contactsData.map(contact => {
+export default function Contacts () : JSX.Element {
+    const contacts : JSX.Element[] = 
+    contactsData.map((contact : IContact) => {
         return (
         <ContactInfo key={contact.id} {...contact}/>
       )})

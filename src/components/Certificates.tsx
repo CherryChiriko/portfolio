@@ -1,9 +1,10 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faDownload} from '@fortawesome/free-solid-svg-icons'
+import { ICertificate } from '../interfaces/ICertificate';
 
-export default function Certificates (props : any){
-    function handleDownload() {
+export default function Certificates (props : ICertificate) : JSX.Element{
+    function handleDownload() : void {
         const link = document.createElement('a');
         link.href = props.certificate;
         link.download = `${props.name}.png`;

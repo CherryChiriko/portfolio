@@ -1,8 +1,6 @@
-// interface ISkill {
-//     name: string;
-//     type: string;
-// }
-export const skillsData = [
+import { ISkill } from "../../interfaces/ISkill";
+
+export const skillsData : ISkill[] = [
     {
         id: 0,
         name: "HTML, CSS, JS, TS, Bootstrap",

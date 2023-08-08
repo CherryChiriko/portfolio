@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 import {faDownload} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export default function Home() {
-    function handleDownload() {
-        const link = document.createElement('a');
+export default function Home() : JSX.Element{
+    function handleDownload() : void {
+        const link : HTMLAnchorElement = document.createElement('a');
         link.href = cv;
         link.download = 'SofiaDiGennaro_CV.png';
         link.click();

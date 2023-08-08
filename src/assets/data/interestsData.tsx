@@ -1,7 +1,8 @@
 import {faCat, faEarthAmericas, faUtensils} 
 from '@fortawesome/free-solid-svg-icons'
+import { IInterest } from '../../interfaces/IInterest'
 
-export const interestsData = [
+export const interestsData : IInterest[] = [
     {
         id: 0,
         icon: faCat,

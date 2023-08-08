@@ -1,12 +1,15 @@
 import React from 'react'
+import { IForm } from '../interfaces/IForm';
 // import emailjs from '@emailjs/browser';
 
-export default function Form (){
-    const [formData, setFormData] = React.useState(
+export default function Form () : JSX.Element {
+    const [formData, setFormData] = React.useState<IForm>(
         {name: "", company: "", email: "", subject: "", message: ""}
     )
 
-    function handleChange(event : any) {
+    function handleChange(
+        event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    ) : void {
         setFormData(prevFormData => {
             return {
                 ...prevFormData,
@@ -15,7 +18,7 @@ export default function Form (){
         })
     }
 
-    function handleSubmit(event : any){
+    function handleSubmit( event: any ) : void {
         event.preventDefault();
         // emailjs.sendForm()
         // .then((result) => {

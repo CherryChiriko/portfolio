@@ -11,7 +11,7 @@ import PortfolioLayout from './pages/layouts/PortfolioLayout';
 import ProjectDescription from './pages/subpages/ProjectDescription';
 
 
-export default function App()  {
+export default function App() : JSX.Element {
   return (
     <>
     <BrowserRouter basename='/portfolio'>

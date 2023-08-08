@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom';
 import { projectsData } from '../../assets/data/projectsData';
+import { IProject } from '../../interfaces/IProject';
 
 export default function ProjectInfo (){
     const { id } = useParams();                                         // Get the id from the route params
-    const project = projectsData.find(project => project.id === id);    // Find the project based on id in projectsData
+    const project : IProject | undefined = 
+        projectsData.find(project => project.id === id);    // Find the project based on id in projectsData
 
     if (!project) {
         // Handle the case when project is not found

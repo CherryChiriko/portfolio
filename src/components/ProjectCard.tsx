@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { IProject } from '../interfaces/IProject';
 
-export default function ProjectCard (props : any){
+export default function ProjectCard (props : IProject): JSX.Element{
     const maxTextLength : number = 150;
     const infoText : string = 
         props.info.length <= maxTextLength ? 

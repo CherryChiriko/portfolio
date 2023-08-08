@@ -1,9 +1,10 @@
 import React from 'react'
 import { projectsData } from '../../assets/data/projectsData'
 import ProjectCard from '../../components/ProjectCard'
+import { IProject } from '../../interfaces/IProject'
 
-export default function ProjectInfo (){
-    const projects = projectsData.map((project : any) => {
+export default function ProjectInfo () : JSX.Element {
+    const projects : JSX.Element[] = projectsData.map((project : IProject) => {
         return (
         <ProjectCard key={project.id} {...project}/>
       )})

@@ -4,7 +4,7 @@ import mappConsultant from '../../assets/images/angular_projects/mapp/mapp_consu
 import mappClient from '../../assets/images/angular_projects/mapp/mapp_client.png'
 import mappFilter from '../../assets/images/angular_projects/mapp/mapp_filter.png'
 
-export default function MappDescription(){
+export default function MappDescription() : JSX.Element {
     const text1 : string =  `
     To begin, users can upload an Excel file containing client and consultant data to the application. Please note that only mock data is utilized in order to protect sensitive information from being disclosed.
     

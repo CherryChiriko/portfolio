@@ -6,22 +6,27 @@ import { interestsData } from '../assets/data/interestsData';
 import Interests from '../components/Interests';
 import { certificatesData } from '../assets/data/certificatesData';
 import Certificates from '../components/Certificates';
+import { ISkill } from '../interfaces/ISkill';
+import { IInterest } from '../interfaces/IInterest';
+import { ICertificate } from '../interfaces/ICertificate';
 
-export default function Skills (){
+export default function Skills () : JSX.Element{
     function makeSkill(type: string) : JSX.Element[] {
         return skillsData
-        .filter(skill => skill.type === type)
-        .map(skill => <Skill key={skill.id} {...skill} />);
+        .filter((skill : ISkill) => skill.type === type)
+        .map((skill : ISkill) => <Skill key={skill.id} {...skill} />);
     }
-    const frontEndSkills = makeSkill('FE');
-    const backEndSkills = makeSkill('BE');
-    const languageSkills = makeSkill('L');
+    const frontEndSkills : JSX.Element[] = makeSkill('FE');
+    const backEndSkills  : JSX.Element[] = makeSkill('BE');
+    const languageSkills : JSX.Element[] = makeSkill('L');
 
-    const interests = interestsData.map( interest => (
+    const interests : JSX.Element[] = 
+    interestsData.map( (interest : IInterest) => (
         <Interests key={interest.id} {...interest} />
     ))
 
-    const certificates = certificatesData.map( certificate => (
+    const certificates : JSX.Element[] = 
+    certificatesData.map( (certificate : ICertificate) => (
         <Certificates key={certificate.id} {...certificate} />
     ))
     return(

@@ -1,7 +1,8 @@
 import {faLocationDot, faMobileScreen, faEnvelope} 
 from '@fortawesome/free-solid-svg-icons'
+import { IContact } from '../../interfaces/IContact'
 
-export const contactsData = [
+export const contactsData : IContact[] = [
     {
         id: 0,
         icon: faLocationDot,
@@ -11,14 +12,12 @@ export const contactsData = [
     {
         id: 1,        
         icon: faMobileScreen,
-        title: "+39 393 8407081",
-        info: ""
+        title: "+39 393 8407081"
     },
     {
         id: 2,        
         icon: faEnvelope,
-        title: "sofia.digennarox@gmail.com",
-        info: ""
+        title: "sofia.digennarox@gmail.com"
     },
 ]
 

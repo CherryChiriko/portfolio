@@ -1,6 +1,7 @@
 import React from 'react'
+import { ISkill } from '../interfaces/ISkill'
 
-export default function Skill (props : any){
+export default function Skill (props : ISkill) : JSX.Element{
     return(
         <div className=''>
             <p className='mb-1'>{props.name}</p>

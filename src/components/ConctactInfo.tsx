@@ -1,8 +1,8 @@
 import React from 'react'
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { IContact } from '../interfaces/IContact'
 
-export default function ContactInfo (props : any){
+export default function ContactInfo (props : IContact) : JSX.Element{
     return(
         <>
         <span className="d-flex align-items-center p-3">

@@ -13,8 +13,9 @@ import gameOfLifeImg from '../images/python_projects/gameoflife.png'
 
 import  MappDescription from '../../components/descriptions/MappDescription'
 import { nanoid } from 'nanoid'
+import { IProject } from '../../interfaces/IProject'
 
-export const projectsData = [    
+export const projectsData : IProject[] = [    
     {
         id: nanoid(),
         title: "Weather Application",
